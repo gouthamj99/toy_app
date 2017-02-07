@@ -7,10 +7,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks', '~> 5'
 gem 'haml-rails'
 gem 'bootstrap'
-gem 'mysql2'
 gem 'listen'
+gem 'jquery-rails'
 
 group :development, :test do
+  gem 'mysql2'
   gem 'byebug'
 end
 
