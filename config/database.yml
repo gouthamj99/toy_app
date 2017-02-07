@@ -11,13 +11,10 @@ development:
   database: toy_app
   username: root
   password:
-  socket: /tmp/mysql.sock
 
 production:
-  adapter: mysql2
+  adapter: postgres
   pool: 5
   timeout: 5000
   database: toy_app
-  username: root
-  password:
-  socket: /tmp/mysql.sock
+
